@@ -5,6 +5,7 @@ add_executable(digital_curling_ex0_template
 target_link_libraries(digital_curling_ex0_template
   PRIVATE
     digital_curling::digital_curling
+    digital_curling::json
     Boost::headers
     Boost::date_time
     Boost::regex
